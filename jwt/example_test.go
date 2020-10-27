@@ -26,8 +26,8 @@ import (
 	"crypto/x509"
 	"encoding/pem"
 
-	"gopkg.in/square/go-jose.v2"
-	"gopkg.in/square/go-jose.v2/jwt"
+	"github.com/simonerota/go-jose.v2"
+	"github.com/simonerota/go-jose.v2/jwt"
 )
 
 var sharedKey = []byte("secret")

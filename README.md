@@ -1,7 +1,7 @@
 # Go JOSE 
 
 [![godoc](http://img.shields.io/badge/godoc-version_1-blue.svg?style=flat)](https://godoc.org/gopkg.in/square/go-jose.v1)
-[![godoc](http://img.shields.io/badge/godoc-version_2-blue.svg?style=flat)](https://godoc.org/gopkg.in/square/go-jose.v2)
+[![godoc](http://img.shields.io/badge/godoc-version_2-blue.svg?style=flat)](https://godoc.org/github.com/simonerota/go-jose.v2)
 [![license](http://img.shields.io/badge/license-apache_2.0-blue.svg?style=flat)](https://raw.githubusercontent.com/square/go-jose/master/LICENSE)
 [![build](https://travis-ci.org/square/go-jose.svg?branch=v2)](https://travis-ci.org/square/go-jose)
 [![coverage](https://coveralls.io/repos/github/square/go-jose/badge.svg?branch=v2)](https://coveralls.io/r/square/go-jose)
@@ -40,17 +40,17 @@ libraries in other languages.
 
 We use [gopkg.in](https://gopkg.in) for versioning.
 
-[Version 2](https://gopkg.in/square/go-jose.v2)
+[Version 2](https://github.com/simonerota/go-jose.v2)
 ([branch](https://github.com/square/go-jose/tree/v2),
-[doc](https://godoc.org/gopkg.in/square/go-jose.v2)) is the current version:
+[doc](https://godoc.org/github.com/simonerota/go-jose.v2)) is the current version:
 
-    import "gopkg.in/square/go-jose.v2"
+    import "github.com/simonerota/go-jose.v2"
 
 The old `v1` branch ([go-jose.v1](https://gopkg.in/square/go-jose.v1)) will
 still receive backported bug fixes and security fixes, but otherwise
 development is frozen. All new feature development takes place on the `v2`
 branch. Version 2 also contains additional sub-packages such as the
-[jwt](https://godoc.org/gopkg.in/square/go-jose.v2/jwt) implementation
+[jwt](https://godoc.org/github.com/simonerota/go-jose.v2/jwt) implementation
 contributed by [@shaxbee](https://github.com/shaxbee).
 
 ### Supported algorithms
@@ -109,7 +109,7 @@ allows attaching a key id.
 ## Examples
 
 [![godoc](http://img.shields.io/badge/godoc-version_1-blue.svg?style=flat)](https://godoc.org/gopkg.in/square/go-jose.v1)
-[![godoc](http://img.shields.io/badge/godoc-version_2-blue.svg?style=flat)](https://godoc.org/gopkg.in/square/go-jose.v2)
+[![godoc](http://img.shields.io/badge/godoc-version_2-blue.svg?style=flat)](https://godoc.org/github.com/simonerota/go-jose.v2)
 
 Examples can be found in the Godoc
 reference for this package. The

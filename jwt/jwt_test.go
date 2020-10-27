@@ -21,8 +21,8 @@ import (
 	"strings"
 	"testing"
 
+	jose "github.com/simonerota/go-jose.v2"
 	"github.com/stretchr/testify/assert"
-	jose "gopkg.in/square/go-jose.v2"
 )
 
 var (
